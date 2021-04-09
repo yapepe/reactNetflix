@@ -1,0 +1,53 @@
+.Netflix {
+  background-color: crimson;
+  position: absolute;
+  width: 5000px;
+  height: 70vh;
+}
+
+.Netflix .Netflix__elemento {
+  position: relative;
+  background-color: fuchsia;
+  display: inline-block;
+  top: 5vh;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.Netflix .Netflix__elemento img {
+  width: 100%;
+  height: 100%;
+}
+
+.Netflix__elemento__avanzar__izquierda {
+  background-color: none;
+  position: absolute;
+  width: 100px;
+  height: 70vh;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.Netflix__elemento__avanzar__izquierda:hover {
+  background-color: cyan;
+}
+
+.Netflix__elemento__avanzar__derecha {
+  background-color: none;
+  position: absolute;
+  width: 100px;
+  height: 70vh;
+  left: calc(100vw - 100px);
+  top: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.Netflix__elemento__avanzar__derecha:hover {
+  background-color: cyan;
+}
+/*# sourceMappingURL=Netflix.css.map */

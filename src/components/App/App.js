@@ -19,6 +19,8 @@ export default function App() {
         <img src={imagen4}></img>,
         <img src={imagen5}></img>,
         <img src={imagen6}></img>,
+        <img src={imagen7}></img>,
+        <img src={imagen7}></img>,
         <img src={imagen7}></img>
       ]}/>
     </div>

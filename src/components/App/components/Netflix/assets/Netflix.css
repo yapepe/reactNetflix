@@ -2,14 +2,15 @@
   background-color: crimson;
   position: absolute;
   width: 5000px;
-  height: 70vh;
+  height: 500px;
+  left: 0px;
 }
 
 .Netflix .Netflix__elemento {
   position: relative;
   background-color: fuchsia;
   display: inline-block;
-  top: 5vh;
+  top: 100px;
   width: 300px;
   height: 300px;
   overflow: hidden;
@@ -25,7 +26,7 @@
   background-color: none;
   position: absolute;
   width: 100px;
-  height: 70vh;
+  height: 500px;
   left: 0;
   top: 0;
   cursor: pointer;
@@ -40,7 +41,7 @@
   background-color: none;
   position: absolute;
   width: 100px;
-  height: 70vh;
+  height: 500px;
   left: calc(100vw - 100px);
   top: 0;
   cursor: pointer;

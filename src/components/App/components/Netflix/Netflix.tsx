@@ -12,13 +12,6 @@ export default function Netflix( { lista }:Props ) {
     const refNetflix = useRef<HTMLDivElement>(null)
     let eKey:number = 0
     let posicionActual:number = 0
-    
-    
-    
-    
-                            {/* determinar posicion del ultimo div
-                              y averiguar su (style.left) menos su width
-                                y guardarla en ultimo div para usarlo de limite */}
 
     const avanzarDerecha = (elementoDOM:HTMLElement ) => {
       

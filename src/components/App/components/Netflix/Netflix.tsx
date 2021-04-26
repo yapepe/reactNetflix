@@ -15,24 +15,26 @@ export default function Netflix( { lista }:Props ) {
 
     const avanzarDerecha = (elementoDOM:HTMLElement ) => {
       
+      
+      if( posicionActual <= (lista.length * -300 ) + window.innerWidth - 300) {
+        posicionActual = 100
+      }
       posicionActual-= 100
       
 
       elementoDOM.style.left = posicionActual +'px'
-      if( posicionActual <= (lista.length * -300 ) + window.innerWidth - 300) {
-        posicionActual = 100
-      }
       
     }
 
     const avanzarIzquierda = (elementoDOM:HTMLElement ) => {
       
-      posicionActual+= 100
-      elementoDOM.style.left = posicionActual +'px'
-
+      
       if( posicionActual > 0) {
         posicionActual = (lista.length * -300 ) + window.innerWidth - 300
       }
+      posicionActual+= 100
+      elementoDOM.style.left = posicionActual +'px'
+
       
     }
 

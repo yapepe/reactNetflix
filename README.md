@@ -1,4 +1,4 @@
-# GaleriaInstagram.js
+# ReactNetflix.tsx
 carrusel de fotos estilo netflix
 ## Uso
 ReactNetflix.tsx recibe un array de imagenes
